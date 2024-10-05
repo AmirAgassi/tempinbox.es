@@ -49,7 +49,7 @@ struct BulkEmailData {
     client_id: String,
 }
 
-// Add this new struct to handle the animated counter
+// failed demo counter - might be removed soon
 #[derive(Clone)]
 struct AnimatedCounter {
     current: Rc<RefCell<f64>>,
