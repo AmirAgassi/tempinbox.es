@@ -1,0 +1,98 @@
+.container {
+  color: #333;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4a4a4a;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.email-address {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.email-address p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.inbox {
+  background-color: #f9f9f9;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.inbox ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.inbox li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.inbox li:last-child {
+  border-bottom: none;
+}
+
+.sender {
+  font-weight: bold;
+}
+
+.subject {
+  color: #666;
+}
+
+.time {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #666;
+  font-size: 0.9rem;
+}

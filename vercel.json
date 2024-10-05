@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "build.sh",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/(.*)\\.js",
+      "headers": { "Content-Type": "application/javascript" },
+      "dest": "/$1.js"
+    },
+    {
+      "src": "/(.*)\\.wasm",
+      "headers": { "Content-Type": "application/wasm" },
+      "dest": "/$1.wasm"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
