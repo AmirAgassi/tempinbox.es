@@ -1,4 +1,4 @@
-# 📧 Tempinbox.es
+# 📧 [Tempinbox.es](https://tempinbox.es)
 
 Full-stack Rust web application providing instant, free Outlook & Hotmail accounts for trusted, privacy-focused burner emails.
 
